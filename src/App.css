@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Mono:wght@500&display=swap");
+#root {
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #e4c3cb;
+  color: #050b06;
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+input:focus {
+  outline: none;
+}
+
+.secondary {
+  color: #050b06;
+  background-color: #cb8bba;
+}
+
+.accent {
+  background-color: #844497;
+}
